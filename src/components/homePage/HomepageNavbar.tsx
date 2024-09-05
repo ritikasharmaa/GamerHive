@@ -12,10 +12,12 @@ const HomepageNavbar = () => {
         <div className="login-button-container">
           <Link href={"/dashboard"}>
             <div className="flex homepageNavbarLOginButton items-center relative z-10 md: gap-4 justify-evenly">
-              <p className="text-white uppercase cursor-pointer">log in with</p>
-              <div className="bg-white rounded cursor-pointer md:w-9 h-8 flex justify-center items-center md:h-9 w-8">
+              <p className="text-white uppercase cursor-pointer">
+                Go to Dashboard
+              </p>
+              {/* <div className="bg-white rounded cursor-pointer md:w-9 h-8 flex justify-center items-center md:h-9 w-8">
                 <FcGoogle className="md:text-2xl text-xl" />
-              </div>
+              </div> */}
             </div>
           </Link>
         </div>
